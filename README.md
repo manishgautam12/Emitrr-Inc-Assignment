@@ -1,67 +1,68 @@
-# Getting Started with Create React App
+<img src='https://www.home.llc/guide/nikfiles/uploads/2021/07/homellc-Logo.png' />
 
-## Available Scripts
+## Tech Stack
 
-In the project directory, you can run:
+### Backend
+<ul>
+<li>Node.js</li>
+<li>Express</li>
+<li>MongoDB</li>
+</ul>
 
-### `npm start`
+### Frontend
+<ul>
+<li>React.js</li>
+<li>CSS</li>
+<li> Meterial UI </li>
+</ul>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
+## Getting Started
 
 
-### `npm run build`
+### Backend
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Run the following commands to start the backend server
+```sh 
+cd backend
+npm install
+node index.js
+   or
+nodemon index.js
+```
+* The configs folder in backend contains the database configuration.
+* The model folder in backend contains the User model and schema.
+* The routes folder contains all the routes related to login and registration.
+* The controller folder contains all the function related to login and registration.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Frontend
 
-### `npm run eject`
+Run the following commands to start the React App
+```sh
+cd client
+npm install
+npm start
+```
+* The client folder contains the whole react application.
+* The src folder contains all pages and components.
+* All components are present in the components folder.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Routes
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### '/login' or '/' - Login/Sign In
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Screenshot (5)](https://user-images.githubusercontent.com/110158502/222977552-1548a102-39c5-490c-a3e5-f294a55e62ff.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### '/signup' - Register/Sign Up
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Screenshot (6)](https://user-images.githubusercontent.com/110158502/222977567-5bc98490-5bf9-4fe1-a9fe-f2d648c33754.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### '/forgetpassword' - Forget Password
 
-### Code Splitting
+![Screenshot (7)](https://user-images.githubusercontent.com/110158502/222977609-cd2c2b87-097f-4d38-b28b-99abd39fc640.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+### '/home' - Home
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Screenshot (8)](https://user-images.githubusercontent.com/110158502/222977618-ecaa0c44-2ab8-4f36-a5d9-c1866173f89c.png)
